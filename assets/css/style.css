@@ -930,7 +930,9 @@ bounce
 }
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 640px) {
-	.example {background: red;}
+	.header {
+		position: static;
+	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
